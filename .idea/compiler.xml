@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Dashboard" />
+        <module name="MainApp" />
+        <module name="MobileApi" />
+        <module name="OuterApi" />
+        <module name="ParkingMeter" />
+        <module name="SpotSensor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="API" target="8" />
+      <module name="Dashboard" target="8" />
+      <module name="MainApp" target="8" />
+      <module name="MobileApi" target="8" />
+      <module name="OuterApi" target="8" />
+      <module name="ParkingMeter" target="8" />
+      <module name="projekt" target="8" />
+      <module name="SpotSensor" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
