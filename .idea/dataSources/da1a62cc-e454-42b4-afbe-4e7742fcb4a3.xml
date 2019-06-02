@@ -21,8 +21,8 @@
     </database>
     <schema id="7" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2019-05-27.08:35:52.329</IntrospectionTimestamp>
-      <IntrospectionStateNumber>2642</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2019-06-02.18:35:29.888</IntrospectionTimestamp>
+      <IntrospectionStateNumber>2766</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -42,50 +42,50 @@
       <ObjectId>12121</ObjectId>
     </schema>
     <sequence id="13" parent="7" name="hibernate_sequence">
-      <ObjectId>42934</ObjectId>
-      <StateNumber>2637</StateNumber>
+      <ObjectId>51337</ObjectId>
+      <StateNumber>2761</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
     </sequence>
     <table id="14" parent="7" name="employee">
-      <ObjectId>42936</ObjectId>
-      <StateNumber>2642</StateNumber>
+      <ObjectId>51339</ObjectId>
+      <StateNumber>2766</StateNumber>
     </table>
     <table id="15" parent="7" name="spot">
-      <ObjectId>42944</ObjectId>
-      <StateNumber>2641</StateNumber>
+      <ObjectId>51347</ObjectId>
+      <StateNumber>2765</StateNumber>
     </table>
     <table id="16" parent="7" name="zone">
-      <ObjectId>42949</ObjectId>
-      <StateNumber>2642</StateNumber>
+      <ObjectId>51352</ObjectId>
+      <StateNumber>2766</StateNumber>
     </table>
     <column id="17" parent="14" name="employee_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2638</StateNumber>
+      <StateNumber>2762</StateNumber>
     </column>
     <column id="18" parent="14" name="login">
       <Position>2</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>2638</StateNumber>
+      <StateNumber>2762</StateNumber>
     </column>
     <column id="19" parent="14" name="password">
       <Position>3</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>2638</StateNumber>
+      <StateNumber>2762</StateNumber>
     </column>
     <column id="20" parent="14" name="role">
       <Position>4</Position>
       <DataType>varchar(255)|0</DataType>
-      <StateNumber>2638</StateNumber>
+      <StateNumber>2762</StateNumber>
     </column>
     <index id="21" parent="14" name="employee_pkey">
-      <ObjectId>42942</ObjectId>
+      <ObjectId>51345</ObjectId>
       <ColNames>employee_id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="22" parent="14" name="employee_pkey">
-      <ObjectId>42943</ObjectId>
+      <ObjectId>51346</ObjectId>
       <ColNames>employee_id</ColNames>
       <UnderlyingIndexName>employee_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -94,72 +94,77 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2639</StateNumber>
+      <StateNumber>2763</StateNumber>
     </column>
     <column id="24" parent="15" name="duration">
       <Position>2</Position>
       <DataType>integer|0</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>2639</StateNumber>
+      <StateNumber>2763</StateNumber>
     </column>
-    <column id="25" parent="15" name="payment_time">
+    <column id="25" parent="15" name="occupied">
       <Position>3</Position>
-      <DataType>timestamp|0</DataType>
-      <StateNumber>2639</StateNumber>
+      <DataType>boolean|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>2763</StateNumber>
     </column>
-    <column id="26" parent="15" name="zone_id">
+    <column id="26" parent="15" name="payment_time">
       <Position>4</Position>
+      <DataType>timestamp|0</DataType>
+      <StateNumber>2763</StateNumber>
+    </column>
+    <column id="27" parent="15" name="zone_id">
+      <Position>5</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2639</StateNumber>
+      <StateNumber>2763</StateNumber>
     </column>
-    <index id="27" parent="15" name="spot_pkey">
-      <ObjectId>42947</ObjectId>
+    <index id="28" parent="15" name="spot_pkey">
+      <ObjectId>51350</ObjectId>
       <ColNames>spot_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="28" parent="15" name="spot_pkey">
-      <ObjectId>42948</ObjectId>
+    <key id="29" parent="15" name="spot_pkey">
+      <ObjectId>51351</ObjectId>
       <ColNames>spot_id</ColNames>
       <UnderlyingIndexName>spot_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="29" parent="15" name="fk983d8ovadfiof39is336jmtwh">
-      <ObjectId>42954</ObjectId>
+    <foreign-key id="30" parent="15" name="fk983d8ovadfiof39is336jmtwh">
+      <ObjectId>51357</ObjectId>
       <ColNames>zone_id</ColNames>
-      <RefTableId>42949</RefTableId>
+      <RefTableId>51352</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>zone</RefTableName>
       <RefKeyName>zone_pkey</RefKeyName>
       <RefColNames>zone_id</RefColNames>
     </foreign-key>
-    <column id="30" parent="16" name="zone_id">
+    <column id="31" parent="16" name="zone_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2640</StateNumber>
+      <StateNumber>2764</StateNumber>
     </column>
-    <column id="31" parent="16" name="employee_id">
+    <column id="32" parent="16" name="employee_id">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>2640</StateNumber>
+      <StateNumber>2764</StateNumber>
     </column>
-    <index id="32" parent="16" name="zone_pkey">
-      <ObjectId>42952</ObjectId>
+    <index id="33" parent="16" name="zone_pkey">
+      <ObjectId>51355</ObjectId>
       <ColNames>zone_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="33" parent="16" name="zone_pkey">
-      <ObjectId>42953</ObjectId>
+    <key id="34" parent="16" name="zone_pkey">
+      <ObjectId>51356</ObjectId>
       <ColNames>zone_id</ColNames>
       <UnderlyingIndexName>zone_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="34" parent="16" name="fkgsllf24dsr1givd5u365gn82b">
-      <ObjectId>42959</ObjectId>
+    <foreign-key id="35" parent="16" name="fkgsllf24dsr1givd5u365gn82b">
+      <ObjectId>51362</ObjectId>
       <ColNames>employee_id</ColNames>
-      <RefTableId>42936</RefTableId>
+      <RefTableId>51339</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>employee</RefTableName>
       <RefKeyName>employee_pkey</RefKeyName>

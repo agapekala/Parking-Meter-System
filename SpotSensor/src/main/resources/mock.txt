@@ -1,0 +1,8 @@
+5
+Nowe auto strefa 2 miejsce 1
+10
+Nowe auto strefa 3 miejsce 10
+15
+Zwolnienie miejsca strefa 2 miejsce 1
+1
+Nowe auto strefa 1 miejsce 1

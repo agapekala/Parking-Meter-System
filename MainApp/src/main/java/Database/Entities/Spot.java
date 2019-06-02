@@ -17,7 +17,18 @@ public class Spot {
     @Temporal(TemporalType.TIMESTAMP)
     private Date payment_time;
 
+    @Column(nullable = true)
     private int duration;
+
+    private boolean occupied;
+
+    public boolean isOccupied() {
+        return occupied;
+    }
+
+    public void setOccupied(boolean occupied) {
+        this.occupied = occupied;
+    }
 
     public int getSpot_id() {
         return spot_id;
