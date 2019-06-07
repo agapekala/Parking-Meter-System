@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MobileApi:war">
+    <output-path>$PROJECT_DIR$/MobileApi/target</output-path>
+    <root id="archive" name="MobileApi-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="MobileApi:war exploded" />
+    </root>
+  </artifact>
+</component>

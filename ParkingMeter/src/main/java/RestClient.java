@@ -8,6 +8,9 @@ import javax.sound.midi.Soundbank;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -28,8 +31,10 @@ public class RestClient {
     }
     public static void addTicket(){
         Scanner read = new Scanner(System.in);
-        System.out.println("Godzina zakupu: ");
-        String payment_time=read.nextLine();
+        Date currentDate = new Date();
+        DateFormat dateFormat= new SimpleDateFormat("yy/MM/dd HH:mm:ss");
+        String payment_time=dateFormat.format(currentDate);
+
         System.out.println("Czas ważności biletu: ");
         int duration=Integer.parseInt(read.nextLine());
         System.out.println("Miejsce: ");
@@ -38,7 +43,7 @@ public class RestClient {
         int zone_id=Integer.parseInt(read.nextLine());
 
         ResteasyClient client = new ResteasyClientBuilder().build();
-        ResteasyWebTarget target = client.target("http://localhost:8080/MainApp_war_exploded/rest/tickets");
+        ResteasyWebTarget target = client.target("http://localhost:8080/rest/tickets");
         Response response = target.request()
                 .post(Entity.entity("{\"payment_time\": \""+payment_time +"\", \"duration\":"+duration+"," +
                                 " \"spot_id\":"+spot_id+", \"zone_id\":"+zone_id+"}"

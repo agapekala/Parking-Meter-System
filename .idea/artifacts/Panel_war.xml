@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Panel:war">
+    <output-path>$PROJECT_DIR$/Panel/target</output-path>
+    <root id="archive" name="Panel-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Panel:war exploded" />
+    </root>
+  </artifact>
+</component>

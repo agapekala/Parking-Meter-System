@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Alert" />
+    <file type="web" url="file://$PROJECT_DIR$/Database" />
+    <file type="web" url="file://$PROJECT_DIR$/Detect" />
+    <file type="web" url="file://$PROJECT_DIR$/Detection" />
+    <file type="web" url="file://$PROJECT_DIR$/MainApp" />
+    <file type="web" url="file://$PROJECT_DIR$/MobileApi" />
+    <file type="web" url="file://$PROJECT_DIR$/Panel" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -9,6 +18,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/Detection/pom.xml" />
         <option value="$PROJECT_DIR$/MainApp/API/pom.xml" />
         <option value="$PROJECT_DIR$/MainApp/Dashboard/pom.xml" />
       </set>

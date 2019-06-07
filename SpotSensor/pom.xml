@@ -15,41 +15,41 @@
         <module>../MainApp</module>
     </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>2.2.8</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-core</artifactId>
-            <version>2.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-impl</artifactId>
-            <version>2.3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.xml.ws</groupId>
-            <artifactId>jaxws-rt</artifactId> <!--zmienione -->
-            <version>2.1.4</version>
-            <type>pom</type>
-        </dependency>
+    <!--&lt;!&ndash;<dependencies>&ndash;&gt;-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>javax.xml.bind</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>jaxb-api</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>2.2.8</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>com.sun.xml.bind</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>jaxb-core</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>2.3.0</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>com.sun.xml.bind</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>jaxb-impl</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>2.3.2</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>com.sun.xml.ws</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>jaxws-rt</artifactId> &lt;!&ndash;zmienione &ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>2.1.4</version>&ndash;&gt;-->
+            <!--&lt;!&ndash;<type>pom</type>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
 
 
-        <dependency>
-            <groupId>com.sun.xml</groupId>
-            <artifactId>jaxws-rt</artifactId>
-            <version>2.0EA3</version>
-        </dependency><!-- https://mvnrepository.com/artifact/javax.inject/javax.inject -->
-        <dependency>
-            <groupId>javax.inject</groupId>
-            <artifactId>javax.inject</artifactId>
-            <version>1</version>
-        </dependency>
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>com.sun.xml</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>jaxws-rt</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>2.0EA3</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&lt;!&ndash; https://mvnrepository.com/artifact/javax.inject/javax.inject &ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+            <!--&lt;!&ndash;<groupId>javax.inject</groupId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<artifactId>javax.inject</artifactId>&ndash;&gt;-->
+            <!--&lt;!&ndash;<version>1</version>&ndash;&gt;-->
+        <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
 
-    </dependencies>
+    <!--</dependencies>-->
 
 </project>

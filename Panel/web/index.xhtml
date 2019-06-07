@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Created by IntelliJ IDEA.
+  User: agnieszka
+  Date: 06.06.19
+  Time: 17:23
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+    <title>Panel</title>
+</h:head>
+
+<h:body>
+
+        <h:form>
+        <h3>Miejsca parkingowe:</h3>
+        <p:dataTable id="spotTable" var="spot" value="#{panel.spots}">
+            <f:facet name="header">SPOTS</f:facet>
+            <p:column headerText="Id">
+                <h:outputText value="#{spot.spot_id}" />
+            </p:column>
+            <p:column headerText="Zone">
+                <h:outputText value="#{spot.zone.zone_id}" />
+            </p:column>
+            <p:column headerText="Employee">
+                <h:outputText value="#{spot.zone.employee.login}" />
+            </p:column>
+            <p:column>
+                <p:commandButton update="spotInfo" oncomplete="PF('spotDialog').show()" value="Select" title="View">
+                    <f:setPropertyActionListener value="#{spot}" target="#{panel.currentSpot}" />
+                </p:commandButton>
+            </p:column>
+        </p:dataTable>
+        </h:form>
+
+
+
+
+
+    <h:panelGroup id="spotInfo">
+        #{panel.currentSpot.spot_id}
+        <p:dialog header="Spot Info" widgetVar="spotDialog" modal="true" showEffect="fade" hideEffect="fade" resizable="false">
+            <p:outputPanel id="spotDetail" style="text-align:center;">
+                <p:panelGrid  columns="2" rendered="#{not empty panel.currentSpot}" columnClasses="label,value">
+                    <h:outputText value="Id:" />
+                    <h:outputText value="#{panel.currentSpot.spot_id}" />
+
+                    <h:outputText value="Zone" />
+                    <h:outputText value="#{panel.currentSpot.zone}" />
+
+                    <h:outputText value="Occupied:" />
+                    <h:outputText value="#{panel.currentSpot.occupied}"/>
+
+                    <h:outputText value="Entry Time" />
+                    <h:outputText value="#{panel.currentSpot.entry_time}" />
+
+                    <h:outputText value="Ticket Expiration Time" />
+                    <h:outputText value="#{panel.currentSpot.payment_time}" />
+
+                    <h:outputText value="Payment Time" />
+                    <h:outputText value="#{panel.currentSpot.payment_time}" />
+                </p:panelGrid>
+            </p:outputPanel>
+        </p:dialog>
+    </h:panelGroup>
+    
+</h:body>
+
+</html>

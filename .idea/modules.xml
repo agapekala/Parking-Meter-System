@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Dashboard/Dashboard.iml" filepath="$PROJECT_DIR$/Dashboard/Dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Alert/Alert.iml" filepath="$PROJECT_DIR$/Alert/Alert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Database/Database.iml" filepath="$PROJECT_DIR$/Database/Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DatabaseApi/DatabaseApi.iml" filepath="$PROJECT_DIR$/DatabaseApi/DatabaseApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Detect/Detect.iml" filepath="$PROJECT_DIR$/Detect/Detect.iml" />
       <module fileurl="file://$PROJECT_DIR$/MainApp/MainApp.iml" filepath="$PROJECT_DIR$/MainApp/MainApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/MobileApi/MobileApi.iml" filepath="$PROJECT_DIR$/MobileApi/MobileApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/OuterApi/OuterApi.iml" filepath="$PROJECT_DIR$/OuterApi/OuterApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Panel/Panel.iml" filepath="$PROJECT_DIR$/Panel/Panel.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingMeter/ParkingMeter.iml" filepath="$PROJECT_DIR$/ParkingMeter/ParkingMeter.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpotSensor/SpotSensor.iml" filepath="$PROJECT_DIR$/SpotSensor/SpotSensor.iml" />
       <module fileurl="file://$PROJECT_DIR$/projekt.iml" filepath="$PROJECT_DIR$/projekt.iml" />

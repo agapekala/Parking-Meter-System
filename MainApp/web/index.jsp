@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: agnieszka
-  Date: 26.05.19
-  Time: 21:16
+  Date: 05.06.19
+  Time: 01:28
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  Karolina Tytko
+  $END$
   </body>
 </html>

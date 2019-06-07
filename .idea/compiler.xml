@@ -6,20 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dashboard" />
+        <module name="Alert" />
+        <module name="Database" />
+        <module name="DatabaseApi" />
+        <module name="Detect" />
         <module name="MainApp" />
         <module name="MobileApi" />
         <module name="OuterApi" />
+        <module name="Panel" />
         <module name="ParkingMeter" />
         <module name="SpotSensor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Alert" target="8" />
       <module name="API" target="8" />
       <module name="Dashboard" target="8" />
+      <module name="Database" target="8" />
+      <module name="DatabaseApi" target="8" />
+      <module name="Detect" target="8" />
+      <module name="Detection" target="8" />
       <module name="MainApp" target="8" />
       <module name="MobileApi" target="8" />
       <module name="OuterApi" target="8" />
+      <module name="Panel" target="8" />
       <module name="ParkingMeter" target="8" />
       <module name="projekt" target="8" />
       <module name="SpotSensor" target="8" />
