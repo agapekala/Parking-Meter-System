@@ -27,13 +27,10 @@
         <module>MainApp</module>
         <module>MobileApi</module>
         <module>OuterApi</module>
-        <module>Dashboard</module>
         <module>Database</module>
         <module>DatabaseApi</module>
         <module>Detect</module>
         <module>Alert</module>
-        <module>Dashboard</module>
-        <module>Dashboard</module>
         <module>Panel</module>
     </modules>
 
