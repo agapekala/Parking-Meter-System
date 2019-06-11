@@ -2,13 +2,22 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="parking@localhost" uuid="da1a62cc-e454-42b4-afbe-4e7742fcb4a3">
-      <database-info product="PostgreSQL" version="9.5.14" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5">
+      <database-info product="PostgreSQL" version="9.5.14" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="9.5.14">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>agnieszka</user-name>
       <introspection-schemas>parking:public</introspection-schemas>
+    </data-source>
+    <data-source name="kartytko@localhost" uuid="5beea88b-fd18-442f-a41a-77ca7e12c9f1">
+      <database-info product="PostgreSQL" version="9.5.17" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="9.5.17" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>soa</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
     </data-source>
   </component>
 </project>
