@@ -5,4 +5,5 @@
            version="10.0">
 
     <context-root>/panel</context-root>
+    <security-domain>postgresqldomain</security-domain>
 </jboss-web>
