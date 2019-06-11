@@ -12,55 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8752b7-ccd3-4f23-8c31-6bdb12c0a468" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/OuterApi_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/OuterApi_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180813.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OuterApi/src/main/java/rest/RestConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OuterApi/src/main/java/rest/endpoints/SpotEndpoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OuterApi/src/main/java/soap/ISpotInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OuterApi/src/main/java/soap/SpotInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OuterApi/web/WEB-INF/jboss-web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OuterApi/web/WEB-INF/sun-jaxws.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/OuterApi/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Panel/web/resources/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PanelApi/PanelApi.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PanelApi/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PanelApi/src/main/java/ejb/Alert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PanelApi/src/main/java/ejb/ILogicBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Database_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Database_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Detect_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Detect_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Panel_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Panel_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alert/src/main/java/RestSender.java" afterPath="$PROJECT_DIR$/Alert/src/main/java/RestSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database/Database.iml" afterPath="$PROJECT_DIR$/Database/Database.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database/src/main/java/DAO/SpotDAO.java" afterPath="$PROJECT_DIR$/Database/src/main/java/DAO/SpotDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database/src/main/java/dbservice/SpotService.java" afterPath="$PROJECT_DIR$/Database/src/main/java/dbservice/SpotService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatabaseApi/DatabaseApi.iml" afterPath="$PROJECT_DIR$/DatabaseApi/DatabaseApi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatabaseApi/pom.xml" afterPath="$PROJECT_DIR$/DatabaseApi/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/Spot.java" afterPath="$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/Spot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/Zone.java" afterPath="$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/Zone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DatabaseApi/src/main/java/dbservice/ISpotService.java" afterPath="$PROJECT_DIR$/DatabaseApi/src/main/java/dbservice/ISpotService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Detect/Detect.iml" afterPath="$PROJECT_DIR$/Detect/Detect.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Detect/pom.xml" afterPath="$PROJECT_DIR$/Detect/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Detect/src/main/java/Detector.java" afterPath="$PROJECT_DIR$/Detect/src/main/java/Detector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Detect/src/main/java/Sender.java" afterPath="$PROJECT_DIR$/Detect/src/main/java/Sender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainApp/MainApp.iml" afterPath="$PROJECT_DIR$/MainApp/MainApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainApp/pom.xml" afterPath="$PROJECT_DIR$/MainApp/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainApp/src/main/java/Detection/ejb/detection/impl/QueueListener.java" afterPath="$PROJECT_DIR$/MainApp/src/main/java/Detection/ejb/detection/impl/QueueListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainApp/src/main/java/Detection/ejb/detection/impl/ReceiveEvent.java" afterPath="$PROJECT_DIR$/MainApp/src/main/java/Detection/ejb/detection/impl/ReceiveEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MobileApi/src/main/java/mobile/rest/objects/Alert.java" afterPath="$PROJECT_DIR$/MobileApi/src/main/java/mobile/rest/objects/Alert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OuterApi/OuterApi.iml" afterPath="$PROJECT_DIR$/OuterApi/OuterApi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OuterApi/pom.xml" afterPath="$PROJECT_DIR$/OuterApi/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Panel/Panel.iml" afterPath="$PROJECT_DIR$/Panel/Panel.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Panel/pom.xml" afterPath="$PROJECT_DIR$/Panel/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Panel/src/main/java/ejb/LogicBean.java" afterPath="$PROJECT_DIR$/Panel/src/main/java/ejb/LogicBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Panel/src/main/java/view/PanelView.java" afterPath="$PROJECT_DIR$/Panel/src/main/java/view/PanelView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Panel/web/index.xhtml" afterPath="$PROJECT_DIR$/Panel/web/index.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -135,8 +87,8 @@
       <file leaf-file-name="PanelView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Panel/src/main/java/view/PanelView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+            <state relative-caret-position="313">
+              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -309,6 +261,11 @@
             <path>
               <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
               <item name="projekt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projekt" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projekt" type="b2602c69:ProjectViewProjectNode" />
@@ -814,7 +771,7 @@
       <workItem from="1560094341099" duration="15977000" />
       <workItem from="1560162521718" duration="8640000" />
       <workItem from="1560209303237" duration="821000" />
-      <workItem from="1560244128077" duration="30000" />
+      <workItem from="1560244128077" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="sensors">
       <created>1559495108485</created>
@@ -837,15 +794,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559904844932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding alerts to panel">
+      <created>1560244202827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560244202827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174695000" />
+    <option name="totallyTimeSpent" value="175572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="3" width="1368" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -867,7 +830,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4489465" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31136364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31136364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -891,7 +854,8 @@
     <MESSAGE value="sensors" />
     <MESSAGE value="upgraded version" />
     <MESSAGE value="fixing errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing errors" />
+    <MESSAGE value="adding alerts to panel" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding alerts to panel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1259,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Panel/src/main/java/view/PanelView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="39" column="61" lean-forward="false" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        <state relative-caret-position="313">
+          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           <folding />
         </state>
       </provider>
