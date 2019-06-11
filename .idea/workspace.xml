@@ -12,24 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a8752b7-ccd3-4f23-8c31-6bdb12c0a468" name="Default" comment="upgraded version">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Alert_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Alert_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Alert_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Alert_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Database_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Database_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Database_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Database_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Detect_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Detect_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Detect_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Detect_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MobileApi_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MobileApi_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MobileApi_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/MobileApi_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseApi/DatabaseApi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseApi/DatabaseApi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatabaseApi/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DatabaseApi/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainApp/MainApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MainApp/MainApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Panel/Panel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Panel/Panel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Panel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Panel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Panel/web/WEB-INF/jboss-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Panel/web/WEB-INF/jboss-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Panel/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Panel/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -125,17 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Panel/web/error.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/Panel/web/login.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -143,26 +126,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Panel/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="44" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="235">
+              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Panel/web/index.xhtml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Panel/src/main/java/view/PanelView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="405">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,15 +145,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/Role.java">
+        <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="495">
+              <caret line="33" column="59" lean-forward="true" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -189,13 +163,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/jboss-web.xml">
+        <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/jboss-web.xml">
           <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -304,14 +287,14 @@
         <option value="$PROJECT_DIR$/Panel/web/test.xhtml" />
         <option value="$PROJECT_DIR$/Panel/web/index.xhtml" />
         <option value="$PROJECT_DIR$/Detect/src/main/java/Detector.java" />
-        <option value="$PROJECT_DIR$/Panel/web/error.xhtml" />
-        <option value="$PROJECT_DIR$/Panel/web/login.xhtml" />
         <option value="$PROJECT_DIR$/DatabaseApi/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/User.java" />
         <option value="$PROJECT_DIR$/Panel/src/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/Panel/pom.xml" />
-        <option value="$PROJECT_DIR$/Panel/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/Panel/web/WEB-INF/jboss-web.xml" />
+        <option value="$PROJECT_DIR$/Panel/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Panel/web/error.xhtml" />
+        <option value="$PROJECT_DIR$/Panel/web/login.xhtml" />
       </list>
     </option>
   </component>
@@ -327,6 +310,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -455,7 +439,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -588,18 +571,6 @@
         <artifact name="Panel:war exploded">
           <settings />
         </artifact>
-        <artifact name="MainApp:war exploded">
-          <settings />
-        </artifact>
-        <artifact name="Alert:war exploded">
-          <settings />
-        </artifact>
-        <artifact name="Detect:war exploded">
-          <settings />
-        </artifact>
-        <artifact name="MobileApi:war exploded">
-          <settings />
-        </artifact>
       </deployment>
       <server-settings>
         <option name="SERVER" />
@@ -663,10 +634,6 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Database:war exploded" />
           <artifact name="Panel:war exploded" />
-          <artifact name="MainApp:war exploded" />
-          <artifact name="Alert:war exploded" />
-          <artifact name="Detect:war exploded" />
-          <artifact name="MobileApi:war exploded" />
         </option>
       </method>
     </configuration>
@@ -755,6 +722,7 @@
       <workItem from="1560095382394" duration="2428000" />
       <workItem from="1560115337073" duration="2257000" />
       <workItem from="1560120691535" duration="13955000" />
+      <workItem from="1560243627104" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="sensors">
       <created>1559495108485</created>
@@ -767,12 +735,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155145000" />
+    <option name="totallyTimeSpent" value="156069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="24" width="1718" height="1056" extended-state="4" />
+    <frame x="73" y="24" width="1718" height="1056" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25538278" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2583732" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -784,7 +752,7 @@
       <window_info id="Capture Tool" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.409234" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.409234" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -794,7 +762,7 @@
       <window_info anchor="bottom" id="ANTLR Preview" order="9" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32901135" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32901135" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.24134313" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.22770199" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3462749" />
       <window_info anchor="bottom" id="Application Servers" order="14" />
       <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
@@ -942,12 +910,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MainApp/web/WEB-INF/jboss-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MainApp/src/main/java/Detection/SensorSOAP/sensors/NewMessageImpl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1043,95 +1011,17 @@
     <entry file="file://$PROJECT_DIR$/DatabaseApi/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/src/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/web/login.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/web/error.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="44" lean-forward="true" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/src/resources/META-INF/persistence.xml" />
     <entry file="file://$PROJECT_DIR$/Panel/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="525">
           <caret line="35" column="49" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/jboss-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Panel/src/main/java/ejb/LogicBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Panel/src/main/java/view/PanelView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="120">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1146,10 +1036,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/src/main/java/ejb/LogicBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="59" lean-forward="true" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/web/WEB-INF/jboss-web.xml">
+      <provider editor-type-id="com.intellij.javaee.oss.jboss.editor.JBossWebRootProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/web/error.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/web/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Panel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DatabaseApi/src/main/java/Entities/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
