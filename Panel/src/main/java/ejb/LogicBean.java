@@ -5,13 +5,14 @@ import view.PanelView;
 
 import javax.ejb.Remote;
 import javax.ejb.Schedule;
+import javax.ejb.Singleton;
 import javax.ejb.Stateless;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedList;
 
-@Stateless
+@Singleton
 @Remote(ILogicBean.class)
 public class LogicBean implements ILogicBean{
 
