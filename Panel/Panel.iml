@@ -37,7 +37,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Mojarra-2.2.1" level="project" />
     <orderEntry type="library" name="org.primefaces:primefaces:6.1" level="project" />
+    <orderEntry type="module" module-name="PanelApi" />
     <orderEntry type="module" module-name="DatabaseApi" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: javax:javaee-api:8.0" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: javax.activation:activation:1.1" level="project" />

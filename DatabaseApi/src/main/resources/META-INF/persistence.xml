@@ -7,10 +7,10 @@
         <class>Entities.Employee</class>
         <class>Entities.Spot</class>
         <properties>
-            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/postgresdb"/>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/parking"/>
             <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
-            <property name="hibernate.connection.username" value="kartytko"/>
-            <property name="hibernate.connection.password" value="kartytko"/>
+            <property name="hibernate.connection.username" value="agnieszka"/>
+            <property name="hibernate.connection.password" value="agnieszka"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
             <property name="hibernate.archive.autodetection" value="class"/>
             <property name="hibernate.hbm2ddl.auto" value="update" />

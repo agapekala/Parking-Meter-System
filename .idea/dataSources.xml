@@ -10,11 +10,5 @@
         <property name="ApplicationName" value="DataGrip" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="kartytko@localhost" uuid="5beea88b-fd18-442f-a41a-77ca7e12c9f1">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
-    </data-source>
   </component>
 </project>
