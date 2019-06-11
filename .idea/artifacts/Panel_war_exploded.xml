@@ -7,6 +7,9 @@
           <element id="module-output" name="Panel" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="PanelApi-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="PanelApi" />
+          </element>
           <element id="archive" name="DatabaseApi-1.0-SNAPSHOT.jar">
             <element id="module-output" name="DatabaseApi" />
           </element>
@@ -34,6 +37,7 @@
           <element id="library" level="project" name="Maven: javax:javaee-api:8.0" />
           <element id="library" level="project" name="Maven: com.sun.mail:javax.mail:1.6.0" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

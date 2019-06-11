@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/MobileApi/MobileApi.iml" filepath="$PROJECT_DIR$/MobileApi/MobileApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/OuterApi/OuterApi.iml" filepath="$PROJECT_DIR$/OuterApi/OuterApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/Panel/Panel.iml" filepath="$PROJECT_DIR$/Panel/Panel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PanelApi/PanelApi.iml" filepath="$PROJECT_DIR$/PanelApi/PanelApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/ParkingMeter/ParkingMeter.iml" filepath="$PROJECT_DIR$/ParkingMeter/ParkingMeter.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpotSensor/SpotSensor.iml" filepath="$PROJECT_DIR$/SpotSensor/SpotSensor.iml" />
       <module fileurl="file://$PROJECT_DIR$/projekt.iml" filepath="$PROJECT_DIR$/projekt.iml" />

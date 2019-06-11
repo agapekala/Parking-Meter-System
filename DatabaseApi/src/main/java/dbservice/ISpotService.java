@@ -14,4 +14,6 @@ public interface ISpotService {
     List<Spot> findExpiredSpots();
     List<Spot> findUnpaidSpots();
     List<Spot> getAllSpots();
+    int getZoneIdForSpot(int id);
+    Spot getSpotById(int id);
 }

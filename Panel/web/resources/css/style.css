@@ -1,0 +1,26 @@
+.ui-datatable {
+    margin-bottom: 25px;
+}
+
+.ui-datatable-header, .ui-datalist-header, .ui-dialog-titlebar{
+    text-shadow: none;
+    background: #c1d1f0;
+
+}
+
+.first-column {
+    width: 75%;
+}
+
+.secon-column {
+    width: 25%;
+}
+
+.top-alignment {
+    vertical-align: top;
+}
+
+.ui-menubar{
+    margin: 0px;
+    background: #c1d1f0;
+}

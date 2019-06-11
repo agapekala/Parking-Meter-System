@@ -32,6 +32,7 @@
         <module>Detect</module>
         <module>Alert</module>
         <module>Panel</module>
+        <module>PanelApi</module>
     </modules>
 
 

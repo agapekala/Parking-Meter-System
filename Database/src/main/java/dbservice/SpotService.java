@@ -56,4 +56,14 @@ public class SpotService implements ISpotService{
     public List<Spot> findUnpaidSpots() {
         return spotDAO.findUnpaidSpots();
     }
+
+    @Override
+    public int getZoneIdForSpot(int id) {
+        return spotDAO.getZoneIdForSpot(id);
+    }
+
+    @Override
+    public Spot getSpotById(int id) {
+        return spotDAO.getSpotById(id);
+    }
 }

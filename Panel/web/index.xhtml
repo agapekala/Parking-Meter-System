@@ -15,14 +15,48 @@
 
 <h:head>
     <title>Panel</title>
+    <h:outputStylesheet library="css" name="style.css" />
 </h:head>
 
 <h:body>
-
+    <h:panelGroup id="menuBar">
         <h:form>
-        <h3>Miejsca parkingowe:</h3>
+            <p:growl id="messages"/>
+            <p:menubar>
+                <p:submenu label="File">
+                    <p:menuitem value="Open" url="#" />
+                    <p:separator />
+                    <p:menuitem value="Quit" url="#" />
+                </p:submenu>
+
+                <p:submenu label="Edit">
+                    <p:menuitem value="Undo" url="#" />
+                    <p:menuitem value="Redo" url="#"/>
+                </p:submenu>
+
+                <p:submenu label="Help" icon="pi pi-question">
+                    <p:menuitem value="Contents" url="#" />
+                    <p:submenu label="Search" icon="pi pi-search">
+                        <p:submenu label="Text">
+                            <p:menuitem value="Workspace" url="#" />
+                        </p:submenu>
+                        <p:menuitem value="File" url="#" />
+                    </p:submenu>
+                </p:submenu>
+                
+                <f:facet name="options">
+                    <p:inputText style="margin:1px 10px 1px 1px;" placeholder="Search"/>
+                    <p:commandButton type="button" value="Logout" />
+                </f:facet>
+            </p:menubar>
+        </h:form>
+    </h:panelGroup>
+
+    <h:panelGrid columns="2" style="width: 100%" columnClasses="first-column second-column top-alignment">
+    <h:panelGroup style="margin-top: 20px; margin-right: 20px">
+        <h:form>
         <p:dataTable id="spotTable" var="spot" value="#{panel.spots}">
-            <f:facet name="header">SPOTS</f:facet>
+            <f:facet name="header">MIEJSCA PARKINGOWE</f:facet>
             <p:column headerText="Id">
                 <h:outputText value="#{spot.spot_id}" />
             </p:column>
@@ -39,13 +73,26 @@
             </p:column>
         </p:dataTable>
         </h:form>
+    </h:panelGroup>
 
+        <h:panelGroup id="alert" style="margin-top: 20px">
+            <h:form>
+                <p:poll interval="10" listener="#{panel.showAlerts}" />
+            </h:form>
+            <p:dataList value="#{panel.alerts}" var="alert" type="ordered">
+                <f:facet name="header">
+                    POWIADOMIENIA
+                </f:facet>
+                #{alert.message}
+            </p:dataList>
 
+            <p:commandButton value="Wyczyść powiadomienia" action="#{panel.clearNotifications}" style="margin-top: 20px"/>
 
+        </h:panelGroup>
 
+    </h:panelGrid>
 
     <h:panelGroup id="spotInfo">
-        #{panel.currentSpot.spot_id}
         <p:dialog header="Spot Info" widgetVar="spotDialog" modal="true" showEffect="fade" hideEffect="fade" resizable="false">
             <p:outputPanel id="spotDetail" style="text-align:center;">
                 <p:panelGrid  columns="2" rendered="#{not empty panel.currentSpot}" columnClasses="label,value">
@@ -53,9 +100,9 @@
                     <h:outputText value="#{panel.currentSpot.spot_id}" />
 
                     <h:outputText value="Zone" />
-                    <h:outputText value="#{panel.currentSpot.zone}" />
+                    <h:outputText value="#{panel.currentSpot.zone.zone_id}" />
 
-                    <h:outputText value="Occupied:" />
+                    <h:outputText value="Status:" />
                     <h:outputText value="#{panel.currentSpot.occupied}"/>
 
                     <h:outputText value="Entry Time" />
@@ -70,7 +117,7 @@
             </p:outputPanel>
         </p:dialog>
     </h:panelGroup>
-    
+
 </h:body>
 
 </html>

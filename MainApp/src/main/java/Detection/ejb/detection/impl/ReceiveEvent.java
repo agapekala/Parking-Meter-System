@@ -3,11 +3,13 @@ package Detection.ejb.detection.impl;
 import Entities.Spot;
 import Entities.Ticket;
 import dbservice.ISpotService;
+import org.json.JSONObject;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
 import javax.ejb.Schedule;
 import javax.ejb.Stateless;
+import javax.json.JsonObject;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
@@ -31,7 +33,11 @@ public class ReceiveEvent {
 
         //aktualizacja bazy
         spotService.updateSpot(spot);
-        sender.sendEvent(Integer.toString(spot.getSpot_id())+" "+message);
+
+        //json do alertu
+        int zone_id=spotService.getZoneIdForSpot(spot.getSpot_id());
+        String jsonAlert=createMessage(spot.getSpot_id(),zone_id,message);
+        sender.sendEvent(jsonAlert);
     }
 
     public void receiveParkingMeterEvent(Ticket ticket) throws Exception{
@@ -40,7 +46,11 @@ public class ReceiveEvent {
 
         Sender sender=(Sender) new InitialContext().lookup(jndi2);
 
-        //to jeszcze nie działa
-        sender.sendEvent("Opłacono miejsce: "+ticket.getSpot_id());
+        String jsonAlert = createMessage(ticket.getSpot_id(), ticket.getZone_id(), "Opłacono miejsce");
+        sender.sendEvent(jsonAlert);
+    }
+
+    private String createMessage(int spot_id, int zone_id, String message){
+        return "{\"message\":"+message+", \"spot_id\":"+spot_id+", \"zone_id\":"+zone_id+"}";
     }
 }

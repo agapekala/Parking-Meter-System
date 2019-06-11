@@ -161,6 +161,16 @@ public class SpotDAO {
         return results.get(0);
     }
 
+    public Spot getSpotById(int id){
+        String hql = "FROM Spot s WHERE s.id ="+id;
+        Query query = em.createQuery(hql);
+        List<Spot> results =query.getResultList();
+        if(results.isEmpty()){
+            return null;
+        }
+        return results.get(0);
+    }
+
     public List<Spot> getAllSpots(){
         String hql = "FROM Spot s";
         Query query = em.createQuery(hql);
@@ -169,6 +179,16 @@ public class SpotDAO {
             return null;
         }
         return results;
+    }
+
+    public int getZoneIdForSpot(int id){
+        String hql = "SELECT z FROM Zone z INNER JOIN z.spots s WHERE s.id="+id;
+        Query query = em.createQuery(hql);
+        List<Zone> results =query.getResultList();
+        if(results.isEmpty()){
+            return 0;
+        }
+        return results.get(0).getZone_id();
     }
 
 }

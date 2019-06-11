@@ -1,6 +1,7 @@
 package Detection.ejb.detection.impl;
 
 import Alert.AlertSender;
+import ejb.ILogicBean;
 
 import javax.annotation.Resource;
 import javax.ejb.*;
@@ -20,6 +21,9 @@ public class QueueListener implements MessageListener {
     @EJB
     private AlertSender alertSender;
 
+    @EJB(lookup = "java:global/Panel-1.0-SNAPSHOT/LogicBean")
+    private ILogicBean logicBean;
+
     @Override
     public void onMessage(Message message) {
         TextMessage textMessage = (TextMessage) message;
@@ -30,6 +34,10 @@ public class QueueListener implements MessageListener {
             //wysłanie komunikatu dalej do modułu odpowiadającego za powiadomianie
             //urządzeń mobilnych
             alertSender.sendAlert(textMessage.getText());
+
+            //dodawanie alertów do listy w Panelu
+            logicBean.addNewAlert(textMessage.getText());
+
         } catch (JMSException e) {
             System.out.println(
                     "Error while trying to consume messages: " + e.getMessage());

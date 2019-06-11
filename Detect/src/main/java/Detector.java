@@ -31,9 +31,8 @@ public class Detector {
 //        });
 //
         unpaidSpots.forEach(element->{
-            String message=Integer.toString(element.getSpot_id());
-            message+=" miejsce nieopłacone";
-            sender.sendAlert(message);
+            String message="Miejsce nieopłacone";
+            sender.sendAlert(message,element.getSpot_id(), element.getZone().getZone_id());
         });
 
         //unpaidSpots.forEach(element -> System.out.println(element.getEntry_time()));

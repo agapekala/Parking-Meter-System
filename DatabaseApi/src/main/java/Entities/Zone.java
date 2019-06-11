@@ -1,5 +1,7 @@
 package Entities;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Set;
@@ -14,6 +16,7 @@ public class Zone implements Serializable{
     @JoinColumn(name = "employee_id", nullable = false)
     private Employee employee;
 
+    @JsonManagedReference
     @OneToMany(mappedBy = "zone")
     private Set<Spot> spots;
 

@@ -1,5 +1,7 @@
 package Entities;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -10,6 +12,7 @@ public class Spot implements Serializable{
     @GeneratedValue
     private int spot_id;
 
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "zone_id", nullable = false)
     private Zone zone;

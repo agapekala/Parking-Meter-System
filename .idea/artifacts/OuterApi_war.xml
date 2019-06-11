@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="OuterApi:war">
+    <output-path>$PROJECT_DIR$/OuterApi/target</output-path>
+    <root id="archive" name="OuterApi-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="OuterApi:war exploded" />
+    </root>
+  </artifact>
+</component>

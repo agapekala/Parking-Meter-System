@@ -14,6 +14,7 @@
         <module name="MobileApi" />
         <module name="OuterApi" />
         <module name="Panel" />
+        <module name="PanelApi" />
         <module name="ParkingMeter" />
         <module name="SpotSensor" />
       </profile>
@@ -30,6 +31,7 @@
       <module name="MobileApi" target="8" />
       <module name="OuterApi" target="8" />
       <module name="Panel" target="8" />
+      <module name="PanelApi" target="8" />
       <module name="ParkingMeter" target="8" />
       <module name="projekt" target="8" />
       <module name="SpotSensor" target="8" />

@@ -51,7 +51,9 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JPA 2.0-2.0" level="project" />
     <orderEntry type="library" name="ejb-3.2" level="project" />
+    <orderEntry type="module" module-name="PanelApi" scope="PROVIDED" />
     <orderEntry type="module" module-name="DatabaseApi" scope="PROVIDED" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.8" level="project" />
     <orderEntry type="library" name="Maven: javax:javaee-api:8.0" level="project" />
     <orderEntry type="library" name="Maven: com.sun.mail:javax.mail:1.6.0" level="project" />
     <orderEntry type="library" name="Maven: org.clojure:java.jdbc:0.7.9" level="project" />
@@ -104,5 +106,6 @@
     <orderEntry type="library" name="Maven: org.jvnet:mimepull:1.2" level="project" />
     <orderEntry type="library" name="Maven: com.sun.xml.ws:jaxws-rt:2.1.3" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20180813" level="project" />
   </component>
 </module>
