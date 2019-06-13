@@ -17,7 +17,7 @@ public class Detector {
     private Sender sender;
 
     //sprawdza co 20 s czy są jakieś nieopłacone lub przedawnione miejsca w bazie
-//    @Schedule(second = "*/20", minute = "*", hour = "*", persistent = false)
+    @Schedule(second = "*/20", minute = "*", hour = "*", persistent = false)
     public void doCheck(){
         System.out.println("checking database");
         ArrayList<Spot> expiredSpots=(ArrayList<Spot>) spotService.findExpiredSpots();
@@ -29,13 +29,11 @@ public class Detector {
             message+=" wygaśnięcie ważności biletu";
             sender.sendAlert(message,element.getSpot_id(),element.getZone().getZone_id());
         });
-//
-//        unpaidSpots.forEach(element->{
-//            String message="Miejsce nieopłacone";
-//            sender.sendAlert(message,element.getSpot_id(), element.getZone().getZone_id());
-//        });
 
-        //unpaidSpots.forEach(element -> System.out.println(element.getEntry_time()));
+        unpaidSpots.forEach(element->{
+            String message="Miejsce nieopłacone";
+            sender.sendAlert(message,element.getSpot_id(), element.getZone().getZone_id());
+        });
     }
 
 }

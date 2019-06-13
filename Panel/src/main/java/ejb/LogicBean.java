@@ -1,13 +1,8 @@
 package ejb;
 
-import Entities.Employee;
 import dbservice.ISpotService;
 import org.primefaces.json.JSONObject;
-import view.PanelView;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.Resource;
-import javax.annotation.security.RolesAllowed;
 import javax.ejb.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -41,17 +36,18 @@ public class LogicBean implements ILogicBean{
         String date = dateFormat.format(currentDate);
         int zone_id=(Integer) json.get("zone_id");
         String parsedAlert="";
-        parsedAlert+=date+" ";
         parsedAlert+="Miejsce "+json.get("spot_id")+"\n";
         parsedAlert+=" Strefa "+json.get("zone_id")+" \n";
         parsedAlert+=json.getString("message");
 
-        //bardzo nieładnie zrobione; sprawdzam ostatnie id w liście i ustawiam kolejne
-        if(alerts.isEmpty()){
-            alerts.add(new Alert(1,parsedAlert,zone_id));
-        }else {
-            alerts.add(new Alert(alerts.getLast().getAlert_id()+1,parsedAlert,zone_id));
+        Alert a=new Alert(parsedAlert,zone_id,date);
+        if(!containsName(alerts,parsedAlert)){
+            alerts.add(a);
         }
+    }
+
+    private boolean containsName(final List<Alert> list, final String message){
+        return list.stream().filter(o -> o.getMessage().equals(message)).findFirst().isPresent();
     }
 
     public void clearList(){
@@ -69,6 +65,7 @@ public class LogicBean implements ILogicBean{
     }
 
     public LinkedList<Alert> getAlerts() {
+
         return alerts;
     }
 

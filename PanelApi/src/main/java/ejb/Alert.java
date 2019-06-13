@@ -3,23 +3,16 @@ package ejb;
 import java.io.Serializable;
 
 public class Alert implements Serializable{
-    private int alert_id;
     private String message;
     private int zone_id;
+    private String date;
 
-    public Alert(int alert_id, String message, int zone_id) {
-        this.alert_id = alert_id;
+    public Alert(String message, int zone_id, String date) {
         this.message = message;
         this.zone_id=zone_id;
+        this.date=date;
     }
 
-    public int getAlert_id() {
-        return alert_id;
-    }
-
-    public void setAlert_id(int alert_id) {
-        this.alert_id = alert_id;
-    }
 
     public String getMessage() {
         return message;
@@ -40,5 +33,13 @@ public class Alert implements Serializable{
     @Override
     public String toString() {
         return message;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 }
