@@ -1,7 +1,9 @@
 package dbservice;
 
+import Entities.Employee;
 import Entities.Spot;
 import Entities.Ticket;
+import Entities.Zone;
 
 import java.util.List;
 
@@ -16,4 +18,9 @@ public interface ISpotService {
     List<Spot> getAllSpots();
     int getZoneIdForSpot(int id);
     Spot getSpotById(int id);
+    String getUserByZone(int zone_id);
+    List<Zone> getAllZones();
+    Employee getEmployee(String login);
+    void updatePassword(int employee_id, String password);
+    List<Employee> getAllEmployees();
 }

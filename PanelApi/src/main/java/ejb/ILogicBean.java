@@ -9,4 +9,6 @@ public interface ILogicBean {
     LinkedList<Alert> getAlerts();
 
     void clearList();
+
+    void clearListByZone(int zone_id);
 }

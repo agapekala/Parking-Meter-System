@@ -22,4 +22,25 @@ public class ZoneDAO {
         }
         return results.get(0);
     }
+
+    public String getUserByZoneId(int zone_id){
+        String hql = "FROM Zone z WHERE z.id ="+zone_id;
+        Query query = em.createQuery(hql);
+        List<Zone> results =query.getResultList();
+        if(results.isEmpty()){
+            return null;
+        }
+        Zone zone=results.get(0);
+        return zone.getEmployee().getLogin();
+    }
+
+    public List<Zone> getAllZones(){
+        String hql = "FROM Zone z";
+        Query query = em.createQuery(hql);
+        List<Zone> results =query.getResultList();
+        if(results.isEmpty()){
+            return null;
+        }
+        return results;
+    }
 }

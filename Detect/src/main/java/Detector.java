@@ -24,16 +24,16 @@ public class Detector {
         ArrayList<Spot> unpaidSpots=(ArrayList<Spot>) spotService.findUnpaidSpots();
 
 
-//        expiredSpots.forEach(element -> {
-//            String message=Integer.toString(element.getSpot_id());
-//            message+=" wygaśnięcie ważności biletu";
-//            sender.sendAlert(message);
-//        });
-//
-        unpaidSpots.forEach(element->{
-            String message="Miejsce nieopłacone";
-            sender.sendAlert(message,element.getSpot_id(), element.getZone().getZone_id());
+        expiredSpots.forEach(element -> {
+            String message=Integer.toString(element.getSpot_id());
+            message+=" wygaśnięcie ważności biletu";
+            sender.sendAlert(message,element.getSpot_id(),element.getZone().getZone_id());
         });
+//
+//        unpaidSpots.forEach(element->{
+//            String message="Miejsce nieopłacone";
+//            sender.sendAlert(message,element.getSpot_id(), element.getZone().getZone_id());
+//        });
 
         //unpaidSpots.forEach(element -> System.out.println(element.getEntry_time()));
     }

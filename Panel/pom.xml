@@ -72,6 +72,22 @@
             <version>42.2.5</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/jboss/jboss-annotations-ejb3 -->
+        <dependency>
+            <groupId>jboss</groupId>
+            <artifactId>jboss-annotations-ejb3</artifactId>
+            <version>4.2.2.GA</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.4</version>
+        </dependency>
+
+
     </dependencies>
 
 

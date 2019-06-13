@@ -21,6 +21,7 @@ public class AlertEndpoint {
     @Consumes(MediaType.APPLICATION_JSON)
     public Response sendAlert(Alert alert){
         try{
+            System.out.println("MOBILE ALERT:");
             alert.printAlert();
             return Response.ok().build();
         }catch (Exception e){

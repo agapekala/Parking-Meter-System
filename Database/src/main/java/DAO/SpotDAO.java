@@ -172,13 +172,23 @@ public class SpotDAO {
     }
 
     public List<Spot> getAllSpots(){
-        String hql = "FROM Spot s";
-        Query query = em.createQuery(hql);
-        List<Spot> results =query.getResultList();
-        if(results.isEmpty()){
+        try {
+            CriteriaBuilder cb = em.getCriteriaBuilder();
+            CriteriaQuery<Spot> cr = cb.createQuery(Spot.class);
+            Root<Spot> root = cr.from(Spot.class);
+
+            cr.select(root);
+            Query query = em.createQuery(cr);
+            List<Spot> results = query.getResultList();
+            for(Spot s:results){
+                em.refresh(s);
+            }
+            return results;
+        }catch (Exception e){
+            System.out.println("Błąd przy pobieraniu rekordów: "+e);
             return null;
         }
-        return results;
+
     }
 
     public int getZoneIdForSpot(int id){

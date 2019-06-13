@@ -1,5 +1,7 @@
 package Entities;
 
+import hash.PasswordConverter;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -12,6 +14,7 @@ public class Employee implements Serializable{
 
     private String login;
 
+    @Convert(converter = PasswordConverter.class)
     private String password;
 
     @Enumerated(EnumType.STRING)

@@ -46,25 +46,28 @@
                 
                 <f:facet name="options">
                     <p:inputText style="margin:1px 10px 1px 1px;" placeholder="Search"/>
-                    <p:commandButton type="button" value="Logout" />
+                    <p:commandButton value="Logout" action="#{panel.logout}" />
                 </f:facet>
             </p:menubar>
         </h:form>
     </h:panelGroup>
 
     <h:panelGrid columns="2" style="width: 100%" columnClasses="first-column second-column top-alignment">
-    <h:panelGroup style="margin-top: 20px; margin-right: 20px">
+    <h:panelGroup id="spotTable" style="margin-top: 20px; margin-right: 20px">
         <h:form>
-        <p:dataTable id="spotTable" var="spot" value="#{panel.spots}">
+        <p:dataTable  var="spot" value="#{panel.spots}" >
             <f:facet name="header">MIEJSCA PARKINGOWE</f:facet>
-            <p:column headerText="Id">
+            <p:column headerText="Numer">
                 <h:outputText value="#{spot.spot_id}" />
             </p:column>
-            <p:column headerText="Zone">
+            <p:column headerText="Strefa">
                 <h:outputText value="#{spot.zone.zone_id}" />
             </p:column>
-            <p:column headerText="Employee">
+            <p:column headerText="Pracownik">
                 <h:outputText value="#{spot.zone.employee.login}" />
+            </p:column>
+            <p:column headerText="Status">
+                <h:outputText value="#{panel.occupationBooleanToString(spot.occupied)}" />
             </p:column>
             <p:column>
                 <p:commandButton update="spotInfo" oncomplete="PF('spotDialog').show()" value="Select" title="View">
@@ -75,9 +78,9 @@
         </h:form>
     </h:panelGroup>
 
-        <h:panelGroup id="alert" style="margin-top: 20px">
+        <h:panelGroup id="alert" style="margin-top: 20px" rendered="#{!panel.checkIfManager()}">
             <h:form>
-                <p:poll interval="10" listener="#{panel.showAlerts}" />
+                <p:poll interval="20" listener="#{panel.showAlerts}" />
             </h:form>
             <p:dataList value="#{panel.alerts}" var="alert" type="ordered">
                 <f:facet name="header">
@@ -96,26 +99,31 @@
         <p:dialog header="Spot Info" widgetVar="spotDialog" modal="true" showEffect="fade" hideEffect="fade" resizable="false">
             <p:outputPanel id="spotDetail" style="text-align:center;">
                 <p:panelGrid  columns="2" rendered="#{not empty panel.currentSpot}" columnClasses="label,value">
-                    <h:outputText value="Id:" />
+                    <h:outputText value="Numer:" />
                     <h:outputText value="#{panel.currentSpot.spot_id}" />
 
-                    <h:outputText value="Zone" />
+                    <h:outputText value="Strefa" />
                     <h:outputText value="#{panel.currentSpot.zone.zone_id}" />
 
                     <h:outputText value="Status:" />
-                    <h:outputText value="#{panel.currentSpot.occupied}"/>
+                    <h:outputText value="#{panel.occupationBooleanToString()}"/>
 
-                    <h:outputText value="Entry Time" />
+                    <h:outputText value="Czas wjazdu" />
                     <h:outputText value="#{panel.currentSpot.entry_time}" />
 
-                    <h:outputText value="Ticket Expiration Time" />
+                    <h:outputText value="Ważność od" />
                     <h:outputText value="#{panel.currentSpot.payment_time}" />
 
-                    <h:outputText value="Payment Time" />
+                    <h:outputText value="Ważność do" />
                     <h:outputText value="#{panel.currentSpot.payment_time}" />
+
                 </p:panelGrid>
             </p:outputPanel>
         </p:dialog>
+    </h:panelGroup>
+
+    <h:panelGroup id="test">
+        <p:commandButton value="Zmiana hasła" action="/password_change.xhtml"/>
     </h:panelGroup>
 
 </h:body>
